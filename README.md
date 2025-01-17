@@ -1,15 +1,18 @@
 # Advanced-Learning-Algorithms  Part 2 of the Machine Learning course from andrew ng
 - layer of neurons
 
-![image](https://github.com/user-attachments/assets/52c6e988-1132-42cf-a696-5864ea7931e6)
+
+![Screenshot 2025-01-17 111005](https://github.com/user-attachments/assets/46755972-a086-4ef6-a928-8fc01b288fa9)
 
 
 # forward propagation Algorithm (forward direction)
 - compute a[1] a[2] a[3] for example 
-![image](https://github.com/user-attachments/assets/32fdcba8-3e27-4d43-bf0d-3caea9f4cad8)
+![Screenshot 2025-01-17 111621](https://github.com/user-attachments/assets/988d98bc-d3f0-4839-a3c3-ae3bf4403105)
+
 
 - final compute of a[3]
 - an optional step would be to check if a[3] >= 0.5  to make it binary   with the sigmoid function
-![image](https://github.com/user-attachments/assets/aa9304c6-593d-4927-b4db-a566081e731e)
+
+![Screenshot 2025-01-17 111702](https://github.com/user-attachments/assets/57f26342-459d-4602-a178-95ab059f20f4)
 
 
