@@ -16,3 +16,9 @@
 ![Screenshot 2025-01-17 111702](https://github.com/user-attachments/assets/57f26342-459d-4602-a178-95ab059f20f4)
 
 
+# forward prop implementation in python with numpy
+
+![image](https://github.com/user-attachments/assets/50e12e9b-bc29-4b1c-93be-27ffc9cb8ba4)
+
+
+
