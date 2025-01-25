@@ -47,6 +47,36 @@
 
 
 
+# steps for creating a neural network 
+# Step 1    ---- >  Create the Model
+
+![Screenshot 2025-01-25 114710](https://github.com/user-attachments/assets/f71cdd4d-5b6b-41f8-9e2c-78c7aab2ddd0)
+
+# Step 2    ---- >  Loss and Cost function
+![image](https://github.com/user-attachments/assets/b8046a04-c6de-4ff4-92ec-26a5cb1d4ce5)
+
+
+# Step 2    ---- >  Train the Model
+
+![image](https://github.com/user-attachments/assets/c2d323ba-6083-4893-91e1-7ddd6303c790)
+
+
+
+# most 3 commonly activation functions 
+![image](https://github.com/user-attachments/assets/8d5daa4c-4fe2-4268-a7a4-59044267cf67)
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
