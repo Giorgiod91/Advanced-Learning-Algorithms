@@ -18,15 +18,15 @@ y= np.array([1,0,0,1])
 g = sigmoid
 # forward prop
 def dense(a_in,W,b):
-    units = W.shape[1]
-    a_out = np.zeros(units)
+    units = W.shape[1] # m, the number of neurons (units) in the layer
+    a_out = np.zeros(units) # Initialize the output array with zeros (shape will be m)
     #going through 3 times
     for j in range(units):
-        #pull out the j column
+         # Pull out the j-th column of the weight matrix W
         w = W[:,j]
-        #compute z
+        # Compute the linear combination of inputs, weights, and bias
         z = np.dot(w,a_in) + b[j]
-        # compute 
+         # Apply the activation function g to z and store the result in a_out[j]
         a_out[j] = g(z)
     return a_out
 # this add a 2 layer neural network
@@ -34,6 +34,16 @@ def my_sequential(x, W1, b1, W2, b2):
     a1 = my_dense(x,  W1, b1)
     a2 = my_dense(a1, W2, b2)
     return(a2)
+
+
+def my_dense_v(A_in, W, b,g):
+    z  = np.matmul(A_in, W) + b 
+    A_out = g(z)
+
+    return A_out
+
+
+
 
 # this function is similar to the tensoflows model.predict() it will take a matrix X with all m examples 
 def my_predict(X, W1, b1, W2, b2):
@@ -43,10 +53,21 @@ def my_predict(X, W1, b1, W2, b2):
         p[i,0] = my_sequential(X[i], W1, b1, W2, b2)
     return(p)
 
+
+# now all these with vectorization
+
+X = np.array([[200, 17]]) #2d array
+W = np.array([[1,-3,5], [-2,4,-6]])
+B = np.array([[-1, 1,2]]) 
+
+
+
 #more usual definition 
 
 model = Sequential([
+    #layers 
     Dense(units=3, activation="sigmoid", name="layer1"), 
+    #output layer
     Dense(units=1, activation="sigmoid", name="layer2")
 ])
 
@@ -54,8 +75,8 @@ model = Sequential([
 
 
 model.compile(optimizer = tf.keras.optimizers.Adam(learning_rate=0.01), loss = tf.keras.losses.BinaryCrossentropy())
-
-model.fit(x,y,epochs=10,)
+# fit the model 
+model.fit(x,y,epochs=10,)  # epos is for the number of steps
 
 predictions = model.predict(x)
 print(predictions)
@@ -66,6 +87,7 @@ W1, b1 = model.get_layer("layer1").get_weights()
 W2, b2 = model.get_layer("layer2").get_weights()
 print(f"W1{W1.shape}:\n", W1, f"\nb1{b1.shape}:", b1)
 print(f"W2{W2.shape}:\n", W2, f"\nb2{b2.shape}:", b2)
+
 
 
 
