@@ -9,8 +9,8 @@ from tensorflow.keras.losses import BinaryCrossentropy
 
 model = Sequential([
     #layers 
-    Dense(units=25, activation="sigmoid"),
-    Dense(units=15, activation="sigmoid"),
+    Dense(units=25, activation="relu"),
+    Dense(units=15, activation="relu"),
     #output layer
     Dense(units=1, activation="sigmoid"),
 
