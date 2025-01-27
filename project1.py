@@ -3,7 +3,8 @@ from tensorflow.keras import Sequential
 from tensorflow.keras.layers import Dense
 from tensorflow.keras.losses import BinaryCrossentropy
 import numpy as np
-
+# add more hidden layers to get more accuracy
+# ideas for some layer ----> ( is the person trying to access memory ? ) ----->   ( ??  ) 
 
 # hardcoded data for now on just to test my model
 HeadshotPercent = ["70","50","40","99","100", "85"]
