@@ -49,3 +49,18 @@ print("Predictions (probability of being a cheater):", predictions)
 
 predictions_binary = (predictions > 0.5).astype(int)
 print("Predictions (binary classification):", predictions_binary)
+
+
+def get_player_data():
+    headshot_numbers = input("Enter headshot%")
+    kill_number = input("Enter the kill count")
+
+    print(headshot_numbers , kill_number)
+
+
+    return headshot_numbers, kill_number
+
+get_player_data()
+
+def implement_into_network_data(headshot_numbers, kill_number):
+    
