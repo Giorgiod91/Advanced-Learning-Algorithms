@@ -81,10 +81,49 @@
 
 
 
+# multi classification
+- y can take on more than just two possible values
+
+# Softmax regression
+- a's will end up together as 1 so for example a1= 0.30 a2=0.20 a3=0.15 then a4=0.35   a1+a2+a3+a4 = 1
+![image](https://github.com/user-attachments/assets/17d0f9d7-b42b-47e0-9380-0510c28b0c78)
+
+# recap on cost function for logistic regression and Softmax regression
+![{39DAD3CD-43EA-4BD7-BE04-745DDC590901}](https://github.com/user-attachments/assets/5df095ae-3018-4f7e-8b32-d423d9219ee2)
+
+# Neural Network with Softmax output
+- each of the the activation values depends on the values of Z
+  ![image](https://github.com/user-attachments/assets/eee41260-e483-4b9e-9939-d4157c89e784)
+
+
+# the more numerically accurate implementation of softmax with tensorflow
+
+![image](https://github.com/user-attachments/assets/3f9cbded-491e-4038-9a4e-75cb7b56e563)
+
+
+# multi-label Classification
+- target output y is a vector
+- could build multiple neural networks
+
+![Screenshot 2025-01-27 191014](https://github.com/user-attachments/assets/ea5f8671-1e80-4c7f-a46b-fb19b5723260)
+
+
+![image](https://github.com/user-attachments/assets/f4e13734-aecf-471f-a68d-7cc96f75581b)
 
 
 
+# Adam algorithm
+- faster then gradient descent and it should be the default choice
+- increases alpha to get faster to the minimum
+- decreases alpha to get faster to the minimum
+- if wj or b keeps moving in the same direction increases learning rate alpha j aj
+- if wj or b keeps oscillating back and forth reduce the learnign rate alpha j aj
+-  The Adam optimization algorithm does need some default initial learning rate alpha
+![image](https://github.com/user-attachments/assets/1ecdcce3-ca52-478b-bc7f-aa24785c67a6)
 
+# other layer Type for example Convolutional Layer
+
+![image](https://github.com/user-attachments/assets/1c32bf33-0992-4a54-a32e-90302ca32833)
 
 
 
