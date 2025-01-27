@@ -67,9 +67,17 @@
 
 
 
+# choosing the right activation functions for the output layer
+- binary classification problem then use the sigmoid functiion    0 or 1
+- for stock price predictions for example the linear activaiton function is better because it can go from minus to plus can go down or up
+- for house price predictions the output can never be negativ so then should choose the ReLU activation function   0 or positiv values
 
+ ![image](https://github.com/user-attachments/assets/bc4be845-62e5-4233-99f7-e79eb7c23359)
 
-
+# for the hidden layer activatopn functions
+- the most common choice is the ReLU function today (faster learning)
+- sigmoid if there is a binary classificaiton problem (its less efficent )
+- dont use linear activation function
 
 
 
