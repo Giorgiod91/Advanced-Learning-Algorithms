@@ -4,7 +4,7 @@ from tensorflow.keras.layers import Dense
 from tensorflow.keras.losses import BinaryCrossentropy
 import numpy as np
 # add more hidden layers to get more accuracy
-# ideas for some layer ----> ( is the person trying to access memory ? ) ----->   ( ??  ) 
+# ideas for some layer ----> ( is the person trying to access memory ? ) ----->   ( simulate memory scanning  )    binary again 1 for Yes  0 for No 
 
 # hardcoded data for now on just to test my model
 HeadshotPercent = ["70","50","40","99","100", "85"]
