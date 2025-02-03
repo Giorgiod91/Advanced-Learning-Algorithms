@@ -135,6 +135,10 @@
 
 ![image](https://github.com/user-attachments/assets/1c32bf33-0992-4a54-a32e-90302ca32833)
 
+## Training/cross validation/test set
+- 60% training set
+- 20% cross validation
+- 20% test set
+![image](https://github.com/user-attachments/assets/21e9a147-75ab-4aad-ad5b-7bb6b28c8e98)
 
 
->>>>>>> 8eb24c3b0d65f11de29f600ab0f6955c0eb6881f
