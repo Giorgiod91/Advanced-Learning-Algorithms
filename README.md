@@ -141,4 +141,7 @@
 - 20% test set
 ![image](https://github.com/user-attachments/assets/21e9a147-75ab-4aad-ad5b-7bb6b28c8e98)
 
+## compute with these 3 Formulas
+- choose the model that has the lowest cross validation error
+![image](https://github.com/user-attachments/assets/89747d23-8bf5-43f1-8eb8-e89c9c17de0f)
 
