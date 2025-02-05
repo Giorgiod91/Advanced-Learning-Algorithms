@@ -136,6 +136,7 @@
 ![image](https://github.com/user-attachments/assets/1c32bf33-0992-4a54-a32e-90302ca32833)
 
 ## Training/cross validation/test set
+- When selecting a model, you want to choose one that performs well both on the training and cross validation set
 - 60% training set
 - 20% cross validation
 - 20% test set
@@ -144,4 +145,9 @@
 ## compute with these 3 Formulas
 - choose the model that has the lowest cross validation error
 ![image](https://github.com/user-attachments/assets/89747d23-8bf5-43f1-8eb8-e89c9c17de0f)
+
+- for example Compute this and then pick the model with the lowest cross validation error like here in this image below
+
+![image](https://github.com/user-attachments/assets/343df8bb-1310-43a6-85f7-f955b6b8a4a5)
+
 
