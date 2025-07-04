@@ -151,3 +151,38 @@
 ![image](https://github.com/user-attachments/assets/343df8bb-1310-43a6-85f7-f955b6b8a4a5)
 
 
+## bias and variance
+- as the degree of the polynomial d decreases J train will go down
+
+- high bias or underfit the key sign ---> J Train will be high  and JCV and JTrain will be close to each other
+- high variance or overfit the key sign ---> JCV will be much greater then JTrain
+- high bias and high variance  the key sign ---> J Train will be high  and JCV will be greater then JTrain
+
+- effect of lambda  high lampda --> high bias(underfit)   small lampda --> high variance(overfit)
+- so chooing the right lampda with the lowest cross validation error
+![image](https://github.com/user-attachments/assets/3e3cd1a5-b589-4365-a6f1-c3ae95521e2f)
+![image](https://github.com/user-attachments/assets/44f65f11-f18b-48f5-951b-a4b4e3c08be5)
+
+
+- gap between baseline performance and Jtrain gives info if u have high bias
+- gap between Jtrain and Jcv give info about if u have high variance
+- both gaps high then u have high bias and high variance
+
+![image](https://github.com/user-attachments/assets/b69da175-2462-491d-969d-12e99f75d08f)
+
+![image](https://github.com/user-attachments/assets/a72838b7-d7a3-40b4-8719-d7a186086f18)
+
+![image](https://github.com/user-attachments/assets/9fd80763-a140-4842-b5b1-dfdbf689ddd4)
+
+
+![image](https://github.com/user-attachments/assets/71baf488-385f-4fe5-a74f-bb794f33c37d)
+
+
+![image](https://github.com/user-attachments/assets/094c368c-a725-4560-ba03-2dde125732f3)
+
+
+
+## Implement regularixation lampda
+
+
+![image](https://github.com/user-attachments/assets/d98469ea-a796-4226-8d09-5fccb63e499d)
