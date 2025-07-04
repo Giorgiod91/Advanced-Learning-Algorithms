@@ -185,4 +185,9 @@
 ## Implement regularixation lampda
 
 
-![image](https://github.com/user-attachments/assets/d98469ea-a796-4226-8d09-5fccb63e499d)
+![image](https://github.com/user-attachments/assets/d98469ea-a796-4226-8d09-5fccb63e499d
+
+
+## Process of machine learning system
+![image](https://github.com/user-attachments/assets/4d2ee6c6-9515-4da0-8b86-db12a6476ce6)
+
